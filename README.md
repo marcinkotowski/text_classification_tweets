@@ -5,13 +5,6 @@
 
 Projekt ten obejmuje analizę sentymentu na danych z Twittera. Wykorzystano różne modele, takie jak Regresja Logistyczna, Maszyna Wektorów Nośnych (SVM), Las Losowy (RF), oraz Konwolucyjna Sieć Neuronowa (CNN) z osadzeniem słów.
 
-## Struktura Repozytorium
-
-- `notebooks/`: Folder zawierający notatniki Jupytera z kodem analizy i modelowania.
-- `data/`: Folder z danymi, w tym pliki CSV zawierające tweety.
-- `models/`: Folder zawierający zapisane modele.
-- `README.md`: Ten plik README w formacie Markdown.
-
 ## Instrukcje Użycia
 
 1. Pobierz repozytorium lokalnie:
