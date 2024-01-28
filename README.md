@@ -1,5 +1,5 @@
 
-# Analiza Sentimentu na Twitterze
+# Klasyfikacja emocji na podstawie tweetów
 
 ## Opis Projektu
 
