@@ -12,32 +12,31 @@ Projekt ten obejmuje analizę sentymentu na danych z Twittera. Wykorzystano ró�
    ```bash
    git clone https://github.com/marcinkotowski/text_classification_tweets
 ## Wyniki Modeli
-Oczywiście, przepraszam za zamieszanie. Oto analiza i recenzja wyników modeli w języku polskim:
 
-### Model 1: Regresja Logistyczna (LR) z WordLevel TF-IDF
-- **Precyzja:** 0,8072
-- **Czułość:** 0,7973
-- **Wskaźnik F1:** 0,8023
-- **Dokładność:** 0,7654
+### Model 1: LR, WordLevel TF-IDF
+- **Precision:** 0.8119
+- **Recall:** 0.7627
+- **F1 Score:** 0.7865
+- **Accuracy:** 0.7446
 
-### Model 2: Maszyna Wektorów Nośnych (SVM) z wektorami N-Gram
-- **Precyzja:** 0,9265
-- **Czułość:** 0,9314
-- **Wskaźnik F1:** 0,9289
-- **Dokładność:** 0,9159
+### Model 2: SVM, N-Gram Vectors
+- **Precision:** 0.9215
+- **Recall:** 0.9280
+- **F1 Score:** 0.9248
+- **Accuracy:** 0.9133
 
-### Model 3: Las Losowy (RF) z WordLevel TF-IDF
-- **Precyzja:** 0,9188
-- **Czułość:** 0,9179
-- **Wskaźnik F1:** 0,9183
-- **Dokładność:** 0,9056
+### Model 3: RF, WordLevel TF-IDF
+- **Precision:** 0.9123
+- **Recall:** 0.9181
+- **F1 Score:** 0.9152
+- **Accuracy:** 0.9047
 
-### Model 4: Konwolucyjna Sieć Neuronowa (CNN) z osadzeniem słów
-- **Precyzja:** 1,0
-- **Czułość:** 0,3641
-- **Wskaźnik F1:** 0,5338
-- **Dokładność:** 0,3641
-
+### Model 4: CNN, Word Embeddings
+- **Precision:** 1.0
+- **Recall:** 0.3626
+- **F1 Score:** 0.5322
+- **Accuracy:** 0.3626
+- 
 ## Analiza:
 
 1. **Regresja Logistyczna (LR):**
